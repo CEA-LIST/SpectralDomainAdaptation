@@ -56,7 +56,7 @@ python main_seot_reflecto.py --algorithm SeOT
 
 ## Citation
 
-If you use this code or find our work useful, please consider citing our paper:
+If you use this code or find our work useful for you research, please consider citing our paper:
 
 ```bibtex
 @misc{saoud2026mappingdomaininvariantrepresentations,

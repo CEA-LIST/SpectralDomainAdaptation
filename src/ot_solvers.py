@@ -7,7 +7,7 @@ def sinkhorn_(a, b, M, reg_e, numItermax=1000, stopThr=1e-9,
     
     """
     Compute the entropic-regularized optimal transport plan between two 
-    discrete distributions a and b using the Sinkhorn-Knopp algorithm,and 
+    discrete measures a and b using the Sinkhorn-Knopp algorithm, and 
     returns the resulting transport Plan.
     """
     

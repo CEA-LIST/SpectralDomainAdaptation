@@ -192,8 +192,6 @@ for target in targets:
                     clf = RandomForestClassifier(n_estimators=1000, max_depth=13, n_jobs=-1, random_state=0)
                 elif args.benchmark == 'CMU-PIE':
                     clf = KNeighborsClassifier(n_neighbors=1, n_jobs=-1)
-                elif args.benchmark == 'Office31':
-                    clf = RandomForestClassifier(n_estimators=1000, max_depth=13, n_jobs=-1, random_state=0)
 
                 clf.fit(bar_embeddings, yb)
                 pred_t = clf.predict(Xt_embeddings)

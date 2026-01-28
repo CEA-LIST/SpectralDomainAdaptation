@@ -31,7 +31,13 @@ def _spectral_embedding(
         norm_laplacian=True,
         drop_first=True
 ):
-    """Compute the spectral embedding of a graph represented by its adjacency matrix."""
+    """
+    Compute the spectral embedding of a graph 
+    represented by its adjacency matrix, and 
+    returns the embeddings (eigenvectors) and 
+    the corresponding eigenvalues
+    
+    """
     
     adjacency = check_symmetric(adjacency)
 
@@ -102,7 +108,7 @@ def SPEMB(
     norm_laplacian: bool = True,
     drop_first: bool = True) -> torch.Tensor:
     """
-    Wrapper function for Computing the spectral embedding of a graph adjacency matrix.
+    Wrapper function for Computing the spectral embedding of a graph.
     """
 
     if isinstance(adjacency, torch.Tensor):
