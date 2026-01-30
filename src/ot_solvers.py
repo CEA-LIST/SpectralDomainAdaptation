@@ -127,7 +127,7 @@ class MaskedSinkhorn:
             labels_conf = P[conf_idx].argmax(dim=1)
 
             if self.verbose:
-                print(f"Confident targets below τ={tau:.2f} : {conf_idx.numel()} / {nt}")
+                print(f"Confident targets below {tau:.2f} : {conf_idx.numel()} / {nt}")
 
             
             mask = torch.zeros_like(C, dtype=torch.bool, device=device)
