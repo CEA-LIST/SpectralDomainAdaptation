@@ -71,11 +71,11 @@ class MaskedSinkhorn:
         self.device = device
 
     def _sinkhorn_kernel(self, C, reg_e):
-        """Return Gibbs kernel K = exp(-C/eps) with numerical stability."""
+        """Return Gibbs kernel."""
         return torch.exp(-C / reg_e) + 1e-20
 
     def _sinkhorn_plan(self, K, a, b, n_iter=200):
-        """Balanced plan T = diag(u)* K * diag(v) with marginals a, b."""
+        """Balanced plan T = diag(u)* K * diag(v)."""
         u = torch.ones_like(a)
         v = torch.ones_like(b)
         
