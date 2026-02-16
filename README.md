@@ -68,4 +68,4 @@ If you use this code or find our work useful for you research, please consider c
 
 <a id="1">[1]</a> Scikit-learn developers. sklearn.manifold.SpectralEmbedding. In *scikit-learn Documentation*. Retrieved from https://scikit-learn.org/stable/modules/generated/sklearn.manifold.SpectralEmbedding.html.
 
-<a id="2">[2]</a> Montesuma, E. F. & Mboula, F. M. N. (2021). Wasserstein Barycenter Transport for Multi-Source Domain Adaptation. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*.
+<a id="2">[2]</a> Montesuma, E. F. & Mboula, F. M. N. (2021). Wasserstein Barycenter for Multi-Source Domain Adaptation. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*.
